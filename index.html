@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman</title>
+        <link  href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+       
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class='card'>
+          <header>
+              <h1>Java Quiz</h1>
+              <h4>Testing your knowledge on Java, Java, and Java</h4>
+          </header>
+          <div id="name">
+            <input type="text" id="nameText" placeholder="Please Enter Your Name" autocomplete="off">
+            <button class='nameBtn btn btn-success'> Submit Name </button>
+            <br />
+            <div class="card" id="namePopup">
+            </div>
+            <br />
+          </div>
+          <div id="question">
+             <button class="startBtn btn btn-success"> Start Quiz </button>
+          </div>
+          <div id="answers">      
+          </div>
+          <div id="currAnswers">
+          </div>
+          <div id="navButtons">
+            <button class="submitBtn btn btn-success"> Submit Answer </button> <br />
+            <p id="feedback"></p>
+            <button class="submitQuizBtn btn btn-success"> Submit Quiz </button> 
+            <br />
+            <button class="prevBtn btn btn-primary"> Previous Question </button>
+            
+            <button class="nextBtn btn btn-primary"> Next Question </button>
+          </div>
+          <br />
+          <div id="resultsDiv">
+          </div>
+          <div id="image">
+          </div>
+        </div>
+        <script src="js/quiz.js"></script>
+    </body>
+</html>

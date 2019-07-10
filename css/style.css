@@ -1,0 +1,74 @@
+/* style.css */
+/* Centering Body: https://stackoverflow.com/questions/6464592/how-to-align-entire-html-body-to-the-center */
+
+html {
+    display: table;
+    margin: auto;
+    height: 100%;    
+}
+
+body {
+    background-color: gray;
+    color: #d931d6;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.card {
+  background-color:#d9e1d6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left:50px;
+  padding-right:50px;
+  border-radius: 10px;
+}
+
+#namePopup {
+  display: none;
+  background-color: #4B6759;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.prevBtn.btn.btn-primary, .nextBtn.btn.btn-primary {
+  display: none;
+  color: white;
+}
+
+.startBtn.btn.btn-success, .submitBtn.btn.btn-success, .submitQuizBtn.btn.btn-success {
+  display: none;
+  color: white;
+}
+
+.name-p {
+  color: #D9E1D6;
+}
+
+.results-p {
+  color: #d9e1d6;
+}
+
+#resultsH2 {
+  color: #d9e1d6;
+}
+
+#resultsH3 {
+  color: #d9e1d6;
+}
+
+#resultsDiv {
+  display: none;
+  padding: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #4B6759;
+  border-radius: 10px;
+}
+
+input[type=text] {
+  width: 200px;
+}
